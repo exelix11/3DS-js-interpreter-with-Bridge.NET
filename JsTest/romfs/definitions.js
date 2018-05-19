@@ -1,0 +1,47 @@
+var KEY = {
+    A: 1,
+    B: 2,
+    SELECT: 4,
+    START: 8,
+    DRIGHT: 16,
+    DLEFT: 32,
+    DUP: 64,
+    DDOWN: 128,
+    R: 256,
+    L: 512,
+    X: 1024,
+    Y: 2048,
+    ZL: 16384,
+    ZR: 32768,
+    TOUCH: 1048576,
+    CSTICK_RIGHT: 16777216,
+    CSTICK_LEFT: 33554432,
+    CSTICK_UP: 67108864,
+    CSTICK_DOWN: 134217728,
+    CPAD_RIGHT: 268435456,
+    CPAD_LEFT: 536870912,
+    CPAD_UP: 1073741824,
+    CPAD_DOWN: -2147483648,
+    UP: 1073741888,
+    DOWN: -2147483520,
+    LEFT: 536870944,
+    RIGHT: 268435472
+};
+Object.freeze(KEY);
+
+var GPU_FLIP = {
+    VERTICAL : 1,
+    HORIZONTAL : 2,
+    BOTH : 3
+};
+Object.freeze(GPU_FLIP);
+
+const TOP_WIDTH = 400;
+const BOTTOM_WIDTH = 320;
+const SCREEN_HEIGHT = 240;
+
+const GFX_TOP = 0;
+const GFX_BOTTOM = 1;
+
+const GFX_LEFT = 0;
+const GFX_RIGHT = 1;

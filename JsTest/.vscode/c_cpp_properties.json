@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "3DS",
+            "includePath": [
+                "C:/devkitPro/libctru/include",
+                "C:/devkitPro/devkitARM/arm-none-eabi/include",
+                "C:/devkitPro/devkitARM/arm-none-eabi/include/c++/6.3.0",
+                "C:/devkitPro/libsftd/include",
+                "C:/devkitPro/libsf2d/include",
+                "C:/devkitPro/libsfil/include",
+                "C:/devkitPro/citro3d/include",
+                "C:/devkitPro/devkitARM/arm-none-eabi/include/c++/7.1.0",
+                "C:/devkitPro/devkitARM/lib/gcc/arm-none-eabi/7.1.0/include",
+                "${workspaceRoot}/source",
+                "${workspaceRoot}/include",
+                "${workspaceRoot}",
+                "C:/devkitPro/devkitARM/arm-none-eabi/include/c++/7.1.0/arm-none-eabi"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "C:/devkitPro/libctru/include",
+                    "C:/devkitPro/devkitARM/arm-none-eabi/include",
+                    "C:/devkitPro/devkitARM/arm-none-eabi/include/c++/6.3.0",
+                    "C:/devkitPro/devkitARM/lib/gcc/arm-none-eabi/7.1.0/include",
+                    "C:/devkitPro/libsftd/include",
+                    "C:/devkitPro/libsf2d/include",
+                    "C:/devkitPro/libsfil/include",
+                    "C:/devkitPro/citro3d/include",
+                    "${workspaceRoot}/source",
+                    "${workspaceRoot}/include",
+                    "${workspaceRoot}"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 3
+}

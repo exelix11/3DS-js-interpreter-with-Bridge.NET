@@ -1,0 +1,1 @@
+@C:\devkitPro\devkitARM\bin\arm-none-eabi-gdb.exe jstest.elf
