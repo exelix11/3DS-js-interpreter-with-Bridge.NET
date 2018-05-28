@@ -1,3 +1,5 @@
+//Raycaster code from: http://lodev.org/cgtutor/raycasting.html
+
 const Colors = new Uint32Array(
 [
 	0xFF0000FF, 0xFF00007F, //Red

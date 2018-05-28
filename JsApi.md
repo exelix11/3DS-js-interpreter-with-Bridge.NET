@@ -52,6 +52,7 @@ Side can be either GFX_LEFT or GFX_RIGHT (only for top screen, use always GFX_LE
 >Texture loading functions return an integer ID of the loaded texture
 
 Typed definitions:
+```
 gfx.begin_draw(byte target, byte side)
 gfx.draw_on(byte target, byte side)
 gfx.end_draw()
@@ -89,6 +90,7 @@ gfx.texture_flip(byte fliptype)
 gfx.texture_rotate(float angle) 
 gfx.texture_depth(float depth) 
 gfx.draw_selected() 
+```
 ---
 ## Sound
 SoundStopChannel(channelNo)
