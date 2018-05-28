@@ -130,11 +130,7 @@ void RunFileInternal(const char * path)
 
 int main()
 {
-	if (PTMSYSM_CheckNew3DS()) 
-	{
-		osSetSpeedupEnable(true);
-		printf("Now you're playing with power\n");
-	}
+	osSetSpeedupEnable(true);
 	romfsInit();
 	sdmcInit();
 	pp2d_init();
@@ -145,7 +141,7 @@ int main()
 	InitJsCtx();
 	
 	printf("\n\n\n-------------------------\nNo Name Js Interpreter - by exelix11\n");
-	printf("Powered by:\nhttp://duktape.org/\nhttps://github.com/Aloshi/dukglue\npp2d by BernardoGiordano\n");
+	printf("Powered by:\nhttp://duktape.org/\nhttps://github.com/Aloshi/dukglue\npp2d by BernardoGiordano\n");	
 	printf("Ready !\n");
 #ifdef RUN_FROM_ROMFS
 	RunFile("romfs:/gputest.js");
